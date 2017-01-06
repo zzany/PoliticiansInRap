@@ -10,8 +10,12 @@ Implementation borrowed heavily from Jason Q Ng (https://github.com/jasonqng/gen
 Credentials
 
 Before running make sure you get credentials from Genius.com: https://genius.com/api-clients. Add them to credentials.txt and copy it to a credentials.ini.
+
+
 Limitations
 •	Only returns ~1000 results. Limitations of Genius API
+
 •	Can’t filter results by genre. For example, I used this to query use of politicians names in Rap. Unfortunately, mostly news showed up (e.g. transcripts of speeches).
+
 •	TextBlob sentiment analysis doesn’t work particularly well on rap.
 
